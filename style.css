@@ -2,8 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 
 }
+
 
 body{
     background-color: blueviolet;
@@ -32,6 +34,9 @@ input{
     font-size: 2rem;
     padding: 0 10px;
     
+}
+input:focus{
+    outline: none;
 }
 
 form button{
@@ -64,6 +69,7 @@ li.task{
     list-style: none;
     margin-bottom: 20px;
     padding:0 10px;
+    cursor: pointer;
 }
 
 @media(max-width:800px){
